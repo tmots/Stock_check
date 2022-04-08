@@ -1,0 +1,100 @@
+html, body {
+	position: relative;
+}
+
+body {
+	color: #333;
+	margin: 0;
+	padding: 8px;
+	box-sizing: border-box;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+}
+
+a {
+	color: rgb(0,100,200);
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+a:visited {
+	color: rgb(0,80,160);
+}
+
+label {
+	display: block;
+}
+
+input, button, select, textarea {
+	font-family: inherit;
+	font-size: inherit;
+	-webkit-padding: 0.4em 0;
+	padding: 0.4em;
+	margin: 0 0 0.5em 0;
+	box-sizing: border-box;
+	border: 1px solid #ccc;
+	border-radius: 2px;
+}
+
+input:disabled {
+	color: #ccc;
+}
+
+button {
+	color: #333;
+	background-color: #f4f4f4;
+	outline: none;
+	margin:10px;
+}
+
+button:disabled {
+	color: #999;
+}
+
+button:not(:disabled):active {
+	background-color: #ddd;
+}
+
+button:focus {
+	border-color: #666;
+}
+
+.mainBox{
+	border:5px solid gray;
+	padding:10px;
+	margin:10px;
+}
+
+.mainBox input{
+	width:50%;
+}
+
+.add_btn{
+	position:relative;
+}
+
+.bene{
+	position:relative;
+	font-weight:bold;
+	width:100%;
+	border:1px solid black;
+	background-color:floralwhite;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 2;
+	overflow: hidden;
+	text-align:center;
+}
+
+.title_div{
+	font-size:20px;
+	font-weight:bold;
+	border:5px solid greenyellow;
+	background-color:seagreen;
+	padding:10px;
+	margin:10px;
+	text-align:center;
+	color:honeydew;
+}
